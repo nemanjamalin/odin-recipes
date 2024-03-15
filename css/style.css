@@ -6,6 +6,7 @@
 .heading{
     text-align: center;
     color: #fff;
+    margin: 15px;
 }
 .heading span{
     background-color: #000;
@@ -17,15 +18,56 @@
     margin-top: 30px;
     text-align: center;
     list-style: none;
+    /* outline: 1px solid red; */
+}
+.list-recipes li{
+    /* outline: 1px solid blue; */
 }
 .list-recipe{
     padding-bottom: 5px;
     border: 1px solid  rgb(171, 173, 171);
     max-width: 200px;
-    margin: auto;
+    margin: 5px auto;
 }
 .list-recipe a{
     color:#000;
     text-decoration: none;
     font-size: 22px;
 }
+
+.image{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+img{
+    width:300px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.content{
+    width: 600px;
+    margin: 20px auto;
+}
+
+.content .headings{
+    text-align: center;
+}
+
+.content p{
+    margin: 10px 0;
+    border: 1px solid  rgb(171, 173, 171);
+    padding: 8px;
+}
+
+
+.content .listings{
+    margin: 10px 0;
+    border: 1px solid  rgb(171, 173, 171);
+    padding: 20px;
+}
+
+
+
